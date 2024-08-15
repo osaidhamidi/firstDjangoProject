@@ -1,13 +1,16 @@
+{% load static %}
+
 <html>
 <meta charset="utf-8">
 
 <head>
 
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" type="text/css" href="{% static 'my_app/css/main.css' %}">
+
 </head>
 <body bgcolor="gray">
 
-<pre><img class="owl" src="pages/logo.png" height="100" width="100">                <img class="owl" src="pages/giffy.gif" width="1000" height="100">
+<pre><img class="owl" src="{% static 'my_app/images/logo.png' %}" height="100" width="100">                <img class="owl" src="pages/giffy.gif" width="1000" height="100">
 
 <br>
 
@@ -18,23 +21,23 @@
 
 
 <table class="table1" border="1">
-<tr> <td><a href="pages/Budgie.html"><img class="pic1" src="pages/badgy.jpg" width="200px" height="200px"></a></td> 
-<td><a href="pages/siskin.html"><img class="pic1" src="pages/siskin.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/macaw.html"><img class="pic1" src="macaww.jpg" width="200px" height="200px"></a> </td>
-<td><a href="pages/coctail.html"><img class="pic1" src="pages/k1.jpg" width="200px" height="200px"></a></td></tr>
+<tr> <td><a href="{% static 'my_app/pages/Budgie.html' %}"><img class="pic1" src="pages/badgy.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/siskin.html' %}"><img class="pic1" src="pages/siskin.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/macaw.html' %}"><img class="pic1" src="macaww.jpg" width="200px" height="200px"></a> </td>
+<td><a href="{% static 'my_app/pages/coctail.html' %}"><img class="pic1" src="pages/k1.jpg" width="200px" height="200px"></a></td></tr>
 
-<tr> <td><a href="pages/cocatoo.html"><img class="pic1" src="pages/cocato.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/zebra.html"><img class="pic1" src="pages/f2.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/goldenparakeet.html"><img class="pic1" src="pages/golden.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/yellowth.html"><img class="pic1" src="pages/b1.jpg" width="200px" height="200px"></a></td></tr>
+<tr> <td><a href="{% static 'my_app/pages/cocatoo.html' %}"><img class="pic1" src="pages/cocato.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/zebra.html' %}"><img class="pic1" src="pages/f2.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/goldenparakeet.html' %}"><img class="pic1" src="pages/golden.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/yellowth.html' %}"><img class="pic1" src="pages/b1.jpg" width="200px" height="200px"></a></td></tr>
 
-<tr><td><a href="pages/qanna.html"><img class="pic1" src="pages/b2.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/turkman.html"><img class="pic1" src="pages/b3.jpg" width="200px" height="200px"></a></td>
-<td><a href="grayparrot.html"><img class="pic1" src="pages/b4.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/lov.html"><img class="pic1" src="pages/b5.jpg" width="200px" height="200px"></a></td></tr>
+<tr><td><a href="{% static 'my_app/pages/ganna.html' %}"><img class="pic1" src="pages/b2.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/turkman.html' %}"><img class="pic1" src="pages/b3.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/grayparrot.html' %}"><img class="pic1" src="pages/b4.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/lov.html' %}"><img class="pic1" src="pages/b5.jpg" width="200px" height="200px"></a></td></tr>
 
-<tr><td><a href="pages/canari.html"><img class="pic1" src="pages/a1.jpg" width="200px" height="200px"></a></td>
-<td><a href="pages/cardinalred.html"><img class="pic1" src="pages/cardinal.jpg" width="200px" height="200px"></a></td>
+<tr><td><a href="{% static 'my_app/pages/canari.html' %}"><img class="pic1" src="pages/a1.jpg" width="200px" height="200px"></a></td>
+<td><a href="{% static 'my_app/pages/cardinalred.html' %}"><img class="pic1" src="pages/cardinal.jpg" width="200px" height="200px"></a></td>
 </tr>
 
 
