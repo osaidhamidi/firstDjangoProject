@@ -1,0 +1,59 @@
+.pic2 {
+    border:7px outset gray;
+    
+    }
+    
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2d2d2d;
+        font-size:15px;
+        
+    }
+    
+    li {
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111111;
+    }
+    #botom {
+        position: absolute;
+        bottom: 0px;
+        width:99%;
+    }
+    
+    .pic1 {
+    border:10px outset white;
+    float:left;
+    border-collapse:collapse;
+    }
+    .cpn1 {
+    color:green;
+    font-size: 20px:
+    }
+    
+    .table1,td,tr {
+    border:50px solid #2d2d2d;
+    table-border:44px;
+    border-collapse:collapse;
+    margin-left:75px;
+    margin-right:75px;
+    
+    }
+    
+    .owl {
+    float: right;
+    }
