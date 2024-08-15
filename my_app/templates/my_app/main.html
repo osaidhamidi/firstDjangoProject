@@ -15,29 +15,29 @@
 <br>
 
 
-<ul><li><a href="main.html"><h3>الصفحة الرئيسية</h3></a></li><li><a href="pages/home.html"><h3>اتصل بنا</h3></a></li></ul>
+<ul><li><a href="{% url 'main' %}"><h3>الصفحة الرئيسية</h3></a></li><li><a href="{% url 'home_page' %}"><h3>اتصل بنا</h3></a></li></ul>
 
 </div>
 
 
 <table class="table1" border="1">
-<tr> <td><a href="{% static 'my_app/pages/Budgie.html' %}"><img class="pic1" src="{% static 'my_app/images/badgy.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/siskin.html' %}"><img class="pic1" src="{% static 'my_app/images/siskin.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/macaw.html' %}"><img class="pic1" src="{% static 'my_app/images/macaww.jpg' %}" width="200px" height="200px"></a> </td>
-<td><a href="{% static 'my_app/pages/coctail.html' %}"><img class="pic1" src="{% static 'my_app/images/k1.jpg' %}" width="200px" height="200px"></a></td></tr>
+<tr> <td><a href="{% url 'budgie_page' %}"><img class="pic1" src="{% static 'my_app/images/badgy.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'siskin_page' %}"><img class="pic1" src="{% static 'my_app/images/siskin.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'macaw_page' %}"><img class="pic1" src="{% static 'my_app/images/macaww.jpg' %}" width="200px" height="200px"></a> </td>
+<td><a href="{% url 'coctail_page' %}"><img class="pic1" src="{% static 'my_app/images/k1.jpg' %}" width="200px" height="200px"></a></td></tr>
 
-<tr> <td><a href="{% static 'my_app/pages/cocatoo.html' %}"><img class="pic1" src="{% static 'my_app/images/cocato.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/zebra.html' %}"><img class="pic1" src="{% static 'my_app/images/f2.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/goldenparakeet.html' %}"><img class="pic1" src="{% static 'my_app/images/golden.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/yellowth.html' %}"><img class="pic1" src="{% static 'my_app/images/b1.jpg' %}" width="200px" height="200px"></a></td></tr>
+<tr> <td><a href="{% url 'cocatoo_page' %}"><img class="pic1" src="{% static 'my_app/images/cocato.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'zebra_page' %}"><img class="pic1" src="{% static 'my_app/images/f2.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'goldenparakeet_page' %}"><img class="pic1" src="{% static 'my_app/images/golden.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'yellowth_page' %}"><img class="pic1" src="{% static 'my_app/images/b1.jpg' %}" width="200px" height="200px"></a></td></tr>
 
-<tr><td><a href="{% static 'my_app/pages/ganna.html' %}"><img class="pic1" src="{% static 'my_app/images/b2.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/turkman.html' %}"><img class="pic1" src="{% static 'my_app/images/b3.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/grayparrot.html' %}"><img class="pic1" src="{% static 'my_app/images/b4.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/lov.html' %}"><img class="pic1" src="{% static 'my_app/images/b5.jpg' %}" width="200px" height="200px"></a></td></tr>
+<tr><td><a href="{% url 'ganna_page' %}"><img class="pic1" src="{% static 'my_app/images/b2.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'turkman_page' %}"><img class="pic1" src="{% static 'my_app/images/b3.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'grayparrot_page' %}"><img class="pic1" src="{% static 'my_app/images/b4.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'lov_page' %}"><img class="pic1" src="{% static 'my_app/images/b5.jpg' %}" width="200px" height="200px"></a></td></tr>
 
-<tr><td><a href="{% static 'my_app/pages/canari.html' %}"><img class="pic1" src="{% static 'my_app/images/a1.jpg' %}" width="200px" height="200px"></a></td>
-<td><a href="{% static 'my_app/pages/cardinalred.html' %}"><img class="pic1" src="{% static 'my_app/images/cardinal.jpg' %}" width="200px" height="200px"></a></td>
+<tr><td><a href="{% url 'canari_page' %}"><img class="pic1" src="{% static 'my_app/images/a1.jpg' %}" width="200px" height="200px"></a></td>
+<td><a href="{% url 'cardinalred_page' %}"><img class="pic1" src="{% static 'my_app/images/cardinal.jpg' %}" width="200px" height="200px"></a></td>
 </tr>
 
 

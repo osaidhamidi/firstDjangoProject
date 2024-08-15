@@ -1,18 +1,19 @@
+{% load static %}
 <html>
 <title>فريق العمل</title>
 <head>
-<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" type="text/css" href="{% static 'my_app/css/contact.css' %}">
 </head>
 <body bgcolor="#a39e9e">
 
-<pre><img class="owl" src="logo.png" height="100" width="100">                <img class="owl" src="giffy.gif" width="1000" height="100">
+<pre><img class="owl" src="{% static 'my_app/images/logo.png' %}" height="100" width="100">                <img class="owl" src="{% static 'my_app/images/giffy.gif' %}" width="1000" height="100">
 
 
 
 
 
 
-<ul><li><a href="../main.html"><h3>الصفحة الرئيسية</h3></a></li><li><a href="home.html"><h3>اتصل بنا</h3></a></li></ul>
+<ul><li><a href="{% url 'main' %}"><h3>الصفحة الرئيسية</h3></a></li><li><a href="{% url 'home_page' %}"><h3>اتصل بنا</h3></a></li></ul>
 </pre>
 </div>
 
@@ -20,34 +21,10 @@
 
 
 
-<div> أسيد حميدي<br>قائد المجموعة<br><a href="https://www.facebook.com/osaid.hami"><img src="faceb.png" width="60" height="60"></a> <a href="https://www.instagram.com/zixler14/"><img src="Instag.png" width="60" height="60"></a></div>                                                                                                                       <div>محمد سلامة <br> مصمم <br>  <a href="https://www.facebook.com/mohammad.salameh.7967"><img src="faceb.png" height="60" width="60"></img></a>  <a href="https://www.instagram.com/msalamh88/"><img src="instag.png" height="60" width="60"></img></a> <a href="https://plus.google.com/108272125698370033864"><img src="gplus.png" height="60" width="60"></img></a> </div>                                                   <div>جاد نائل<br>جامع معلومات <br> <a href="https://www.facebook.com/profile.php?id=100009395960060"><img src="faceb.png" height="60" width="60"></a></div>                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div>عبدالرحمن الكرمي<br> مساعد <br> <a href="https://www.facebook.com/abood.alkarmi.31"><img src="faceb.png" height="60" width="60"></a></div>
+<div> أسيد حميدي<br>مبرمج<br><a href="https://www.facebook.com/osaid.hamidi"><img src="{% static 'my_app/images/faceb.png' %}" width="60" height="60"></a> <a href="https://www.instagram.com/zixler14/"><img src="{% static 'my_app/images/Instag.png' %}" width="60" height="60"></a></div>
+<div>محمد سلامة <br> مصمم <br>  <a href="https://www.facebook.com/mohammad.salameh.7967"><img src="{% static 'my_app/images/faceb.png' %}" height="60" width="60"></img></a>  <a href="https://www.instagram.com/msalamh88/"><img src="{% static 'my_app/images/Instag.png' %}" height="60" width="60"></img></a> <a href="https://plus.google.com/108272125698370033864"><img src="{% static 'my_app/images/gplus.png' %}" height="60" width="60"></img></a> </div>
+<div>جاد نائل<br>جامع معلومات <br> <a href="https://www.facebook.com/profile.php?id=100009395960060"><img src="{% static 'my_app/images/faceb.png' %}" height="60" width="60"></a></div>
+<div>عبدالرحمن الكرمي<br> مساعد <br> <a href="https://www.facebook.com/abood.alkarmi.31"><img src="{% static 'my_app/images/faceb.png' %}" height="60" width="60"></a></div>
 
 </body>
 </html>

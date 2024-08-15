@@ -1,20 +1,21 @@
+{% load static %}
 <html>
 <title>الببغاء الذهبي</title>
 
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="{% static 'my_app/css/style.css' %}">
 </head>
 <body bgcolor="#a39e9e">
 
-<pre><img class="owl" src="logo.png" height="100" width="100">                <img class="owl" src="giffy.gif" width="1000" height="100">
+<pre><img class="owl" src="{% static 'my_app/images/logo.png' %}" height="100" width="100">                <img class="owl" src="{% static 'my_app/images/giffy.gif' %}" width="1000" height="100">
 
 
 
 
 
 
-<ul><li><a href="../main.html"><h3>الصفحة الرئيسية</h3></a></li><li><a href="home.html"><h3>اتصل بنا</h3></a></li></ul>
+<ul><li><a href="{% url 'main' %}"><h3>الصفحة الرئيسية</h3></a></li><li><a href="{% url 'home_page' %}"><h3>اتصل بنا</h3></a></li></ul>
 </pre>
 </div>
 
@@ -28,7 +29,7 @@
 
 <pre>
 <div class="div1">
-      <img  class="frame" src="golden.jpg" width="400px" height="400px">
+      <img  class="frame" src="{% static 'my_app/images/golden.jpg' %}" width="400px" height="400px">
 	  <iframe class="vid" width="500" height="370" <iframe width="560" height="315" src="https://www.youtube.com/embed/_3Oe0ZsVOMU" allowfullscreen></iframe> 
 
 <br>
